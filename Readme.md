@@ -6,8 +6,12 @@ This project takes a list of JSON records and deduplicates them based on specifi
 2. Duplicate IDs and emails are treated as duplicates.
 3. If dates are identical, the last record in the list is preferred.
 
+## Prerequisites
+- **Java SDK**: 17 (Make sure Java 17 is installed on your system)
+- **Maven**: Ensure Maven is installed and added to your system's PATH.
+
 ## How to Run
-1. Ensure you have Java 8 or later installed.
+1. Ensure you have Java version
 2. Use Maven to build the project. 
 3. Run the main class. 
 4. The program uses a default sample JSON (`leads.json`) located in the `src/main/resources/` directory.
